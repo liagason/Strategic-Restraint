@@ -1,0 +1,21 @@
+{
+    "name": "PopulationUnitCap",
+    "description": "Limits total units to the combined population of all cities.",
+    "version": "1.0",
+    "rules": {
+      "PopulationBasedUnitCap": {
+        "type": "unitLimit",
+        "logic": {
+          "unitLimit": {
+            "condition": "sum(city.population for city in civ.cities)",
+            "applyToUnits": {
+              "exclude": ["Great Scientist", "Great Engineer", "Great Artist", "Great General", "Great Prophet"]
+            },
+            "effect": "blockUnitCreation",
+            "message": "You cannot exceed the unit limit based on your city's total population!"
+          }
+        }
+      }
+    }
+  }
+  
