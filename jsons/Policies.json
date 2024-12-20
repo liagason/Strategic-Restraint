@@ -1,0 +1,20 @@
+{
+    "name": "Population Unit Cap",
+    "modOptions": {
+        "isBaseRuleset": false
+    },
+    "policies": {
+        "Population Control": {
+            "name": "Population Unit Cap",
+            "uniques": [
+                "Must be enacted from the start of the game",
+                "Gain a free [Great Artist] when your total unit count is less than your total population",
+                "Units may not be purchased with [Gold] when your total unit count exceeds your total population",
+                "Units may not be purchased with [Faith] when your total unit count exceeds your total population",
+                "-[100]% Production when constructing [Military] units when your total unit count exceeds your total population",
+                "-[100]% Production when constructing [Civilian] units when your total unit count exceeds your total population"
+            ],
+            "era": "Ancient era"
+        }
+    }
+}
