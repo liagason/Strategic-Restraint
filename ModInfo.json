@@ -1,8 +1,0 @@
-{
-    "name": "PopulationUnitCap",
-    "description": "Limits total units (military and civilian) to the combined population of all cities, excluding Great People.",
-    "version": "1.0",
-    "minUncivVersion": "4.5.0",
-    "author": "Sotiris Liagkas"
-  }
-  
