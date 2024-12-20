@@ -1,0 +1,20 @@
+{
+    "name": "Population-Based Unit Cap",
+    "modOptions": {
+      "isBaseRuleset": false
+    },
+    "mechanics": [
+      {
+        "name": "Population Unit Cap",
+        "uniques": [
+          "Can't build [Military] units if non-great-person unit count exceeds total population",
+          "Can't build [Civilian] units if non-great-person unit count exceeds total population",
+          "Great Person units are not counted towards unit limit"
+        ]
+      }
+    ],
+    "globalUniques": [
+      "At the start of each turn, destroy random non-great-person unit if total non-great-person units exceed total population",
+      "Show alert 'Unit cap reached ([currentUnits]/[totalPopulation])' when attempting to exceed population-based unit limit"
+    ]
+  }

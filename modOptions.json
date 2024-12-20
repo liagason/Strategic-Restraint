@@ -1,0 +1,6 @@
+{
+    "name": "Population Unit Cap",
+    "author": "Sotiris Liagkas",
+    "version": "1.0",
+    "description": "Limits total non-great-person units to the sum of city populations"
+  }
