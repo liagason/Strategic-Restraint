@@ -1,6 +1,13 @@
 {
     "name": "Population Unit Cap",
-    "author": "Sotiris Liagkas",
+    "author": "YourName",
     "version": "1.0",
-    "description": "Limits units based on population"
+    "description": "Limits units based on population",
+    "modUrl": "https://example.com",
+    "constants": {
+        "unitCapMultiplier": 1
+    },
+    "modOptions": {
+        "isBaseRuleset": false
+    }
 }
