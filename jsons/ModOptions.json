@@ -1,11 +1,11 @@
 [
 {
-    isBaseRuleset: false,
-    uniques:[
+    "isBaseRuleset": false,
+    "uniques":[
         "Allow raze capital",
         "Allow raze holy city"
     ],
-    constants:{
+    "constants":{
     }
 }
 ]
