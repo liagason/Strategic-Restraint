@@ -1,7 +1,7 @@
 {
     isBaseRuleset: false,
     uniques:[
-        "Allow raze holy city"
+        "Allow City States to spawn with additional units"
     ],
     constants:{
 "minimumWarDuration": 5,
