@@ -4,7 +4,8 @@
         "Allow raze holy city"
     ],
     constants:{
-"minimumWarDuration": 1,
+"minimumWarDuration": 5,
+"cityStateElectionTurns": 10,
 "unitSupplyPerPopulation": 0.1
     }
 }
