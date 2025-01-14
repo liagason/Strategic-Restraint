@@ -4,5 +4,7 @@
         "Allow raze holy city"
     ],
     constants:{
+        "minimalCityDistance": 1,
+"minimalCityDistanceOnDifferentContinents": 1,
     }
 }
