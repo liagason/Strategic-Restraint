@@ -1,10 +1,10 @@
 {
     isBaseRuleset: false,
     uniques:[
-"Disable religion",
         "Allow raze holy city"
     ],
     constants:{
-"minimumWarDuration": 1
+"minimumWarDuration": 1,
+"unitSupplyPerPopulation": 0.1
     }
 }
