@@ -7,7 +7,7 @@
 "minimumWarDuration": 5,
 "cityStateElectionTurns": 10,
 "unitSupplyPerPopulation": 0.1,
-"minimalCityDistance": 1,
-"minimalCityDistanceOnDifferentContinents": 1
+"minimalCityDistance": 2,
+"minimalCityDistanceOnDifferentContinents": 2
     }
 }
